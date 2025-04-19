@@ -1,0 +1,117 @@
+# Django
+*.pyc
+__pycache__/
+*.sqlite3
+*.pyo
+*.pyd
+*.log
+*.pot
+*.db
+*.pid
+*.spec
+
+# Virtual Environment
+venv/
+.env/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Django Media and Static
+/media/
+/staticfiles/
+/static/
+
+# Django Secrets
+.env
+.env.local
+.env.dev
+.env.prod
+.env.staging
+secrets.json
+*.env
+
+# Database migrations (except initial)
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+.DS_Store
+
+# Node/React
+node_modules/
+.npm
+.eslintcache
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Build directories
+/build/
+/dist/
+/out/
+.next/
+.cache/
+
+# Frontend
+/public/
+/.next/
+/.svelte-kit/
+/coverage/
+/.jest/
+/storybook-static/
+
+# Testing
+/coverage/
+htmlcov/
+.pytest_cache/
+/cypress/screenshots/
+/cypress/videos/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.trash-*
+.nfs*
+
+# Docker
+docker-compose.override.yml
+*.dockerfile
+docker-compose.*.yml
+
+# Backend
+*.egg-info/
+*.egg
+dist/
+pip-wheel-metadata/
+.tox/
+.celerybeat-schedule
+
+# Frontend
+.eslintrc.js
+.prettierrc.js
+.next/
+out/
+storybook-static/
